@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp-1.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.5.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mybatis-3.2.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mybatis-spring-1.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ojdbc6-11.2.0.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-aop-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-asm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-beans-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-context-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-context-support-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-core-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-expression-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-jdbc-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-orm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-tx-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-web-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-ant-zip-1.8.0.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

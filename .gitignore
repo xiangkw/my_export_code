@@ -9,8 +9,8 @@ build/
 
 # eclipse ignore
 .settings/
-.project
-.classpath
+# .project
+# .classpath
 
 # idea ignore
 .idea/
