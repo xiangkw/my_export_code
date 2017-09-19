@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="{base_pakeage}.dao.{model_name}Dao" >
+  <resultMap id="BaseResultMap" type="{base_pakeage}.model.{model_name}" >
+{Base_Column_Type}
+  </resultMap>
+  
+  <sql id="Base_TableName" > {Base_TableName} </sql>
+  
+  <sql id="Base_Column_List" >
+	{Base_Column_List}
+  </sql>
+  
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from <include refid="Base_TableName" />
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  
+  <delete id="delete" parameterType="java.lang.Long" >
+    delete from <include refid="Base_TableName" />
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  
+  <insert id="insert" parameterType="{base_pakeage}.model.{model_name}" >
+    insert into <include refid="Base_TableName" />
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+{Insert_Columns}
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+{Insert_Values}
+    </trim>
+  </insert>
+  
+  <update id="update" parameterType="{base_pakeage}.model.{model_name}" >
+    update <include refid="Base_TableName" />
+    <set >
+{Update_Columns}
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  
+  <select id="findList" resultMap="BaseResultMap" parameterType="{base_pakeage}.model.{model_name}" >
+	select 
+	    <include refid="Base_Column_List" />
+    from <include refid="Base_TableName" />
+    <where>
+{Where_Columns}
+    </where>
+  </select>
+  
+</mapper>

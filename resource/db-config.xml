@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 数据库注释说明 -->
+<root>
+	<db id="01" desc="【测试】文章和数据采集数据库">
+		<atr name="url" value="jdbc:mysql://192.168.200.82:3306/mysteel_spider" />
+		<atr name="username" value="root" />
+		<atr name="password" value="mysteel" />
+		<atr name="template" value="template" />
+		<atr name="basePakeage" value="com.mysteel.spider" />
+	</db>
+	
+	<db id="02" desc="【测试】VIP信息服务数据库">
+		<atr name="url" value="jdbc:mysql://192.168.200.82:3306/mysteel_vip" />
+		<atr name="username" value="root" />
+		<atr name="password" value="mysteel" />
+		<atr name="template" value="template" />
+		<atr name="basePakeage" value="com.mysteel.vip" />
+	</db>
+	
+	<db id="03" desc="【测试】会展平台数据库">
+		<atr name="url" value="jdbc:mysql://192.168.200.82:3306/mysteel_event_new" />
+		<atr name="username" value="root" />
+		<atr name="password" value="mysteel" />
+		<atr name="template" value="template" />
+		<atr name="basePakeage" value="com.mysteel.event" />
+	</db>
+	
+	<db id="04" desc="【测试】搜搜钢数据库">
+		<atr name="url" value="jdbc:mysql://192.168.200.82:3306/sososteel" />
+		<atr name="username" value="root" />
+		<atr name="password" value="mysteel" />
+		<atr name="template" value="template" />
+		<atr name="basePakeage" value="com.mysteel.soso" />
+	</db>
+</root>
