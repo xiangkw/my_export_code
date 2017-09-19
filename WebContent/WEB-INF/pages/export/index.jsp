@@ -7,7 +7,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>My代码导出工具</title>
+<link rel="shortcut icon" href="<%=basePath%>/static/favicon.png?v=1" type="image/x-icon">
+<title>My export code tools</title>
 
 <script src="/static/jquery-1.11.2.min.js"></script>
 <style type="text/css">

@@ -4,10 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>My代码导出工具</title>
+<link rel="shortcut icon" href="static/favicon.png?v=1" type="image/x-icon">
+<title>My export code tools</title>
 </head>
 <body>
-	This is JSP page.
-	<a href="export.htm">点击跳转</a>
+	<div style="text-align: center;">
+		<h4>Welcome to my export code tools Home page.</h4>
+		<a href="export.htm">Please click here ...</a>
+	</div>
+	
 </body>
 </html>
